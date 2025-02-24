@@ -8,3 +8,9 @@ const discountSenior = 0.40;
 const kilometers = prompt('Quante il numero di chilometri che deve percorre ?');
 
 const age = prompt('Qual è la usa età ?');
+
+// Controllo input
+
+if (isNaN(kilometers) || isNaN(age)) {
+    alert('ERORRE! Inserire valore valido');
+}
