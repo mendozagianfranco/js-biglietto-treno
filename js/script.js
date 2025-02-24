@@ -11,7 +11,7 @@ const age = prompt('Qual è la usa età ?');
 
 // Controllo input
 
-if (isNaN(kilometers) || isNaN(age)) {
+if (isNaN(kilometers) || isNaN(age) || kilometers === '' || age === '') {
     alert('ERORRE! Inserire valore valido');
 } else {
     //Trasformare input da stringa a numero
