@@ -1,23 +1,15 @@
-# Biglietto del treno
+# Biglietto Treno – Esercizio JavaScript
 
-Programma che chiede all'utente il numero di chilometri che vuole percorre e l'età del passeggero e in base a queste informazioni restituire il prezzo totale del viaggio.
+## Descrizione  
+Questo progetto è un esercizio pratico in JavaScript volto a creare una semplice applicazione che calcola i costi di un biglietto del treno in base a parametri come età del passeggero, numero di chilometri da percorrere e eventuali sconti.  
+L’obiettivo principale è **imparare a manipolare variabili, applicare condizioni e funzioni** in JavaScript, e gestire l’interazione con l’utente tramite elementi di input.
 
----
+## Caratteristiche  
+- Inserimento dell’età del passeggero e del numero di chilometri del viaggio  
+- Calcolo del prezzo base in base ai chilometri  
+- Applicazione di sconti per fasce d’età (es. minorenni, over 65)  
+- Visualizzazione del risultato all’utente tramite console
 
-### Pseudocodice
-
--   Chiedere chilometri da percorre al passeggero
-    -   Controllo input
-    -   SE è NaN
-        -   Messaggio di errore
--   Chiedere età del passeggero
-    -   Controllo input
-    -   SE è NaN
-        -   Messaggio di errore
--   Trasformare input da stringa a numero
--   Applicare prezzo del biglietto in base ai chilometri (0.21 € al km)
--   SE età è inferiore a 18
-    -   Applicare sconto per minorenni del 20%
--   ALTRIMENTI SE età è maggiore di 65
-    -   Applicare sconto per over 65 del 40%
--   Mostrare prezzo biglietto con massimo 2 decimali
+## Tecnologie utilizzate  
+- HTML5  
+- JavaScript (vanilla)  
